@@ -5,18 +5,10 @@ It detect and print on the screen how far people are from the Walabot.
 It also works when the Walabot is behind a wall or a door!
 
 You can use this app to trigger events as you wish.
+* Works on both Windows and Linux.
+* Works on both Python 2 and Python 3.
 
-## Installing the WalabotAPI Python Library Using pip
+## How to use
 
-After [installing the WalabotSDK](http://walabot.com/getting-started) on your machine:  
-Simply write one of these two lines into the terminal or cmd depends on your operation system.
-
-### Windows
-```
-pip install WalabotAPI --no-index --find-links="%PROGRAMFILES%\Walabot\WalabotSDK\python\"
-```
-
-### Linux / Raspberry PI
-```
-pip install WalabotAPI --no-index --find-links="/usr/share/walabot/python/"
-```
+1. Install the [Walabot SDK](http://walabot.com/getting-started) and the [WalabotAPI Python library](https://github.com/Walabot-Projects/Walabot-HelloWalabot#how-to-use) using pip.
+2. Run `RawImage.py`.
